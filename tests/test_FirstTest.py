@@ -23,7 +23,6 @@ from CheckOutPage.TelePhone import TelePhone
 from CheckOutPage.Adress1 import Adress
 from CheckOutPage.City import City
 from CheckOutPage.PostCode import PostCode
-from CheckOutPage.Country import Country
 
 class Test_FirstTest(BaseTest): # héritage
 
@@ -75,8 +74,7 @@ class Test_FirstTest(BaseTest): # héritage
         postcode = PostCode(self.driver)
         postcode.clickPostcode()
 
-        country = Country(self.driver)
-        country.clickCountry()
+
 
 
 
